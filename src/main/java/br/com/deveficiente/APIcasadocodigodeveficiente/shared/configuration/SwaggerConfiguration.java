@@ -25,21 +25,7 @@ public class SwaggerConfiguration {
 		Predicate<String>apiurls=PathSelectors.ant("/api/**");
 		return new Docket(DocumentationType.SWAGGER_2).select().apis(basePackage).
 				paths(apiurls).build();
-		
-		
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+						
 				
 	}
 
