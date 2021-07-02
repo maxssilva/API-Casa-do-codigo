@@ -15,7 +15,7 @@ public class CrudAutoresController {
 	 * o corpo da requisição venha no formato JSON, do contrario vem como form urlencoded*/
 	public void novo (@Valid @RequestBody NovoAutorForm form) {
 		 Autor novoAutor=form.novoAutor();
-		 //parei aqui//
-	 }
+		 System.out.println(novoAutor);
+	 }		
  
 }

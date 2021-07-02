@@ -29,6 +29,10 @@ public class NovoAutorForm {
 		this.linkGithub = linkGithub;
 	}
 	
+	public Autor novoAutor() {
+		return new Autor(nome, linkGithub);
+	}
+	
 	
 
 }
